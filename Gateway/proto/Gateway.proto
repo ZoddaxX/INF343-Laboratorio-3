@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./Gateway";
+package Gateway;
+
+service GatewayService {
+  rpc CrearPedido (CrearPedidoRequest) returns (CrearPedidoResponse);
+  rpc ConsultarEstado (ConsultarEstadoRequest) returns (ConsultarEstadoResponse);
+}
+
+message CrearPedidoRequest {
+  string cliente_id = 1;
+  string pedido_id = 2;
+}
+
+message CrearPedidoResponse {
+  bool exito = 1;
+  string mensaje = 2;
+}
+
+message ConsultarEstadoRequest {
+  string cliente_id = 1;
+  string pedido_id = 2;
+}
+
+message ConsultarEstadoResponse {
+  string estado = 1;
+  repeated int32 RelojVectorial = 2;
+}

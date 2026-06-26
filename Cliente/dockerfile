@@ -1,0 +1,7 @@
+FROM golang:1.26-alpine AS builder
+WORKDIR /app
+COPY . .
+RUN rm -f go.work && go work init && go work use ./Broker ./Datanode ./Gateway ./Cliente ./Productor
+WORKDIR /app/Cliente
+RUN go build -o main .
+CMD ["./main"]

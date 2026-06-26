@@ -1,0 +1,9 @@
+go 1.26.1
+
+use (
+	./Broker
+	./Cliente
+	./Datanode
+	./Gateway
+	./Productor
+)

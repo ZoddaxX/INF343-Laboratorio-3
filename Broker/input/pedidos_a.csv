@@ -1,0 +1,19 @@
+pedido_id,restaurante,actor,estado,tiempo_relativo
+Ped-S-001,BurgerNode,Restaurante,Recibido,1
+Ped-S-001,BurgerNode,Restaurante,Preparando,2
+Ped-S-001,BurgerNode,Restaurante,Cancelado,3
+Ped-S-002,BurgerNode,Restaurante,Recibido,3
+Ped-S-003,BurgerNode,Restaurante,Recibido,3
+Ped-S-002,BurgerNode,Restaurante,Preparando,4
+Ped-S-004,DockerPizza,Restaurante,Recibido,5
+Ped-S-005,SushiStream,Restaurante,Recibido,5
+Ped-S-003,BurgerNode,Restaurante,Preparando,6
+Ped-S-005,SushiStream,Restaurante,Preparando,6
+Ped-S-002,BurgerNode,Repartidor,En Camino,7
+Ped-S-004,DockerPizza,Restaurante,Preparando,8
+Ped-S-002,BurgerNode,Repartidor,Entregado,9
+Ped-S-003,BurgerNode,Restaurante,Cancelado,9
+Ped-S-005,SushiStream,Repartidor,En Camino,9
+Ped-S-004,DockerPizza,Repartidor,En Camino,10
+Ped-S-004,DockerPizza,Repartidor,Entregado,11
+Ped-S-005,SushiStream,Repartidor,Entregado,11

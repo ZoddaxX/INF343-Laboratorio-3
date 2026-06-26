@@ -1,0 +1,12 @@
+- Cliente2 (Req-Cliente2-1): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente3 (Req-Cliente3-1): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente2 (Menu-Inicial): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente2 (Req-Cliente2-2): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente3 (Menu-Inicial): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente3 (Req-Cliente3-2): Validacion Exitosa en Datanode 3 (Afinidad de sesion confirmada).
+- Cliente2 (Menu-Inicial): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente1 (Menu-Inicial): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+.
+- Cliente1 (Req-Cliente1-3): Validacion Exitosa en Datanode 2 (Afinidad de sesion confirmada).
+- Cliente3 (Menu-Inicial): Validacion Exitosa en Datanode 3 (Afinidad de sesion confirmada).
+- Cliente3 (Req-Cliente3-3): Validacion Exitosa en Datanode 1 (Afinidad de sesion confirmada).

@@ -1,0 +1,383 @@
+pedido_id,restaurante,actor,estado,tiempo_relativo
+Ped-L-001,DockerPizza,Restaurante,Recibido,0
+Ped-L-002,DockerPizza,Restaurante,Recibido,0
+Ped-L-001,DockerPizza,Restaurante,Preparando,1
+Ped-L-003,DockerPizza,Restaurante,Recibido,1
+Ped-L-002,DockerPizza,Restaurante,Preparando,2
+Ped-L-003,DockerPizza,Restaurante,Preparando,2
+Ped-L-004,GopherTacos,Restaurante,Recibido,2
+Ped-L-002,DockerPizza,Restaurante,Cancelado,3
+Ped-L-005,GopherTacos,Restaurante,Recibido,3
+Ped-L-001,DockerPizza,Repartidor,En Camino,4
+Ped-L-004,GopherTacos,Restaurante,Preparando,4
+Ped-L-003,DockerPizza,Repartidor,En Camino,5
+Ped-L-004,GopherTacos,Repartidor,En Camino,5
+Ped-L-005,GopherTacos,Restaurante,Preparando,5
+Ped-L-006,BurgerNode,Restaurante,Recibido,5
+Ped-L-003,DockerPizza,Repartidor,Entregado,6
+Ped-L-004,GopherTacos,Repartidor,Entregado,6
+Ped-L-007,DockerPizza,Restaurante,Recibido,6
+Ped-L-008,GopherTacos,Restaurante,Recibido,6
+Ped-L-009,BurgerNode,Restaurante,Recibido,6
+Ped-L-010,DockerPizza,Restaurante,Recibido,6
+Ped-L-001,DockerPizza,Repartidor,Entregado,7
+Ped-L-006,BurgerNode,Restaurante,Preparando,7
+Ped-L-007,DockerPizza,Restaurante,Preparando,7
+Ped-L-009,BurgerNode,Restaurante,Preparando,7
+Ped-L-010,DockerPizza,Restaurante,Preparando,7
+Ped-L-011,SushiStream,Restaurante,Recibido,7
+Ped-L-005,GopherTacos,Repartidor,En Camino,8
+Ped-L-006,BurgerNode,Restaurante,Cancelado,8
+Ped-L-008,GopherTacos,Restaurante,Preparando,8
+Ped-L-012,GopherTacos,Restaurante,Recibido,8
+Ped-L-013,BurgerNode,Restaurante,Recibido,8
+Ped-L-005,GopherTacos,Repartidor,Entregado,9
+Ped-L-007,DockerPizza,Repartidor,En Camino,9
+Ped-L-009,BurgerNode,Repartidor,En Camino,9
+Ped-L-010,DockerPizza,Repartidor,En Camino,9
+Ped-L-011,SushiStream,Restaurante,Preparando,9
+Ped-L-012,GopherTacos,Restaurante,Preparando,9
+Ped-L-013,BurgerNode,Restaurante,Preparando,9
+Ped-L-007,DockerPizza,Repartidor,Entregado,10
+Ped-L-010,DockerPizza,Repartidor,Entregado,10
+Ped-L-012,GopherTacos,Repartidor,En Camino,10
+Ped-L-014,DockerPizza,Restaurante,Recibido,10
+Ped-L-015,BurgerNode,Restaurante,Recibido,10
+Ped-L-008,GopherTacos,Repartidor,En Camino,11
+Ped-L-009,BurgerNode,Repartidor,Entregado,11
+Ped-L-011,SushiStream,Repartidor,En Camino,11
+Ped-L-014,DockerPizza,Restaurante,Preparando,11
+Ped-L-016,BurgerNode,Restaurante,Recibido,11
+Ped-L-017,SushiStream,Restaurante,Recibido,11
+Ped-L-008,GopherTacos,Repartidor,Entregado,12
+Ped-L-013,BurgerNode,Repartidor,En Camino,12
+Ped-L-014,DockerPizza,Restaurante,Cancelado,12
+Ped-L-015,BurgerNode,Restaurante,Preparando,12
+Ped-L-012,GopherTacos,Repartidor,Entregado,13
+Ped-L-015,BurgerNode,Repartidor,En Camino,13
+Ped-L-018,SushiStream,Restaurante,Recibido,13
+Ped-L-011,SushiStream,Repartidor,Entregado,14
+Ped-L-013,BurgerNode,Repartidor,Entregado,14
+Ped-L-016,BurgerNode,Restaurante,Preparando,14
+Ped-L-017,SushiStream,Restaurante,Preparando,14
+Ped-L-019,BurgerNode,Restaurante,Recibido,15
+Ped-L-020,DockerPizza,Restaurante,Recibido,15
+Ped-L-015,BurgerNode,Repartidor,Entregado,16
+Ped-L-018,SushiStream,Restaurante,Preparando,16
+Ped-L-016,BurgerNode,Repartidor,En Camino,17
+Ped-L-017,SushiStream,Repartidor,En Camino,17
+Ped-L-020,DockerPizza,Restaurante,Preparando,17
+Ped-L-021,SushiStream,Restaurante,Recibido,17
+Ped-L-018,SushiStream,Repartidor,En Camino,18
+Ped-L-019,BurgerNode,Restaurante,Preparando,18
+Ped-L-020,DockerPizza,Repartidor,En Camino,18
+Ped-L-017,SushiStream,Repartidor,Entregado,19
+Ped-L-019,BurgerNode,Restaurante,Cancelado,19
+Ped-L-020,DockerPizza,Repartidor,Entregado,19
+Ped-L-022,BurgerNode,Restaurante,Recibido,19
+Ped-L-023,SushiStream,Restaurante,Recibido,19
+Ped-L-024,SushiStream,Restaurante,Recibido,19
+Ped-L-016,BurgerNode,Repartidor,Entregado,20
+Ped-L-018,SushiStream,Repartidor,Entregado,20
+Ped-L-021,SushiStream,Restaurante,Preparando,20
+Ped-L-025,SushiStream,Restaurante,Recibido,20
+Ped-L-022,BurgerNode,Restaurante,Preparando,21
+Ped-L-025,SushiStream,Restaurante,Preparando,21
+Ped-L-026,SushiStream,Restaurante,Recibido,21
+Ped-L-021,SushiStream,Repartidor,En Camino,22
+Ped-L-023,SushiStream,Restaurante,Preparando,22
+Ped-L-024,SushiStream,Restaurante,Preparando,22
+Ped-L-025,SushiStream,Repartidor,En Camino,22
+Ped-L-026,SushiStream,Restaurante,Preparando,22
+Ped-L-027,DockerPizza,Restaurante,Recibido,23
+Ped-L-022,BurgerNode,Repartidor,En Camino,24
+Ped-L-024,SushiStream,Repartidor,En Camino,24
+Ped-L-021,SushiStream,Repartidor,Entregado,25
+Ped-L-022,BurgerNode,Repartidor,Entregado,25
+Ped-L-023,SushiStream,Restaurante,Cancelado,25
+Ped-L-024,SushiStream,Repartidor,Entregado,25
+Ped-L-025,SushiStream,Repartidor,Entregado,25
+Ped-L-026,SushiStream,Restaurante,Cancelado,25
+Ped-L-028,BurgerNode,Restaurante,Recibido,25
+Ped-L-029,SushiStream,Restaurante,Recibido,25
+Ped-L-030,SushiStream,Restaurante,Recibido,25
+Ped-L-027,DockerPizza,Restaurante,Preparando,26
+Ped-L-028,BurgerNode,Restaurante,Preparando,26
+Ped-L-029,SushiStream,Restaurante,Preparando,27
+Ped-L-030,SushiStream,Restaurante,Preparando,27
+Ped-L-031,BurgerNode,Restaurante,Recibido,27
+Ped-L-032,DockerPizza,Restaurante,Recibido,27
+Ped-L-027,DockerPizza,Repartidor,En Camino,28
+Ped-L-029,SushiStream,Repartidor,En Camino,28
+Ped-L-030,SushiStream,Repartidor,En Camino,28
+Ped-L-033,SushiStream,Restaurante,Recibido,28
+Ped-L-034,DockerPizza,Restaurante,Recibido,28
+Ped-L-028,BurgerNode,Restaurante,Cancelado,29
+Ped-L-029,SushiStream,Repartidor,Entregado,29
+Ped-L-031,BurgerNode,Restaurante,Preparando,29
+Ped-L-032,DockerPizza,Restaurante,Preparando,29
+Ped-L-035,DockerPizza,Restaurante,Recibido,29
+Ped-L-032,DockerPizza,Repartidor,En Camino,30
+Ped-L-034,DockerPizza,Restaurante,Preparando,30
+Ped-L-036,BurgerNode,Restaurante,Recibido,30
+Ped-L-027,DockerPizza,Repartidor,Entregado,31
+Ped-L-030,SushiStream,Repartidor,Entregado,31
+Ped-L-032,DockerPizza,Repartidor,Entregado,31
+Ped-L-033,SushiStream,Restaurante,Preparando,31
+Ped-L-034,DockerPizza,Repartidor,En Camino,31
+Ped-L-035,DockerPizza,Restaurante,Preparando,31
+Ped-L-037,SushiStream,Restaurante,Recibido,31
+Ped-L-031,BurgerNode,Repartidor,En Camino,32
+Ped-L-036,BurgerNode,Restaurante,Preparando,32
+Ped-L-038,BurgerNode,Restaurante,Recibido,32
+Ped-L-034,DockerPizza,Repartidor,Entregado,33
+Ped-L-035,DockerPizza,Repartidor,En Camino,33
+Ped-L-038,BurgerNode,Restaurante,Preparando,33
+Ped-L-039,BurgerNode,Restaurante,Recibido,33
+Ped-L-033,SushiStream,Repartidor,En Camino,34
+Ped-L-035,DockerPizza,Repartidor,Entregado,34
+Ped-L-036,BurgerNode,Repartidor,En Camino,34
+Ped-L-037,SushiStream,Restaurante,Preparando,34
+Ped-L-031,BurgerNode,Repartidor,Entregado,35
+Ped-L-033,SushiStream,Repartidor,Entregado,35
+Ped-L-036,BurgerNode,Repartidor,Entregado,35
+Ped-L-040,BurgerNode,Restaurante,Recibido,35
+Ped-L-038,BurgerNode,Repartidor,En Camino,36
+Ped-L-039,BurgerNode,Restaurante,Preparando,36
+Ped-L-040,BurgerNode,Restaurante,Preparando,36
+Ped-L-037,SushiStream,Repartidor,En Camino,37
+Ped-L-041,GopherTacos,Restaurante,Recibido,37
+Ped-L-042,DockerPizza,Restaurante,Recibido,37
+Ped-L-038,BurgerNode,Repartidor,Entregado,38
+Ped-L-039,BurgerNode,Repartidor,En Camino,38
+Ped-L-040,BurgerNode,Repartidor,En Camino,38
+Ped-L-043,BurgerNode,Restaurante,Recibido,38
+Ped-L-037,SushiStream,Repartidor,Entregado,39
+Ped-L-040,BurgerNode,Repartidor,Entregado,39
+Ped-L-044,SushiStream,Restaurante,Recibido,39
+Ped-L-045,GopherTacos,Restaurante,Recibido,39
+Ped-L-046,BurgerNode,Restaurante,Recibido,39
+Ped-L-039,BurgerNode,Repartidor,Entregado,40
+Ped-L-041,GopherTacos,Restaurante,Preparando,40
+Ped-L-042,DockerPizza,Restaurante,Preparando,40
+Ped-L-047,SushiStream,Restaurante,Recibido,40
+Ped-L-043,BurgerNode,Restaurante,Preparando,41
+Ped-L-046,BurgerNode,Restaurante,Preparando,41
+Ped-L-048,DockerPizza,Restaurante,Recibido,41
+Ped-L-049,SushiStream,Restaurante,Recibido,41
+Ped-L-050,DockerPizza,Restaurante,Recibido,41
+Ped-L-042,DockerPizza,Repartidor,En Camino,42
+Ped-L-044,SushiStream,Restaurante,Preparando,42
+Ped-L-045,GopherTacos,Restaurante,Preparando,42
+Ped-L-050,DockerPizza,Restaurante,Preparando,42
+Ped-L-041,GopherTacos,Restaurante,Cancelado,43
+Ped-L-043,BurgerNode,Repartidor,En Camino,43
+Ped-L-044,SushiStream,Repartidor,En Camino,43
+Ped-L-047,SushiStream,Restaurante,Preparando,43
+Ped-L-051,BurgerNode,Restaurante,Recibido,43
+Ped-L-052,GopherTacos,Restaurante,Recibido,43
+Ped-L-053,BurgerNode,Restaurante,Recibido,43
+Ped-L-054,BurgerNode,Restaurante,Recibido,43
+Ped-L-044,SushiStream,Repartidor,Entregado,44
+Ped-L-046,BurgerNode,Repartidor,En Camino,44
+Ped-L-047,SushiStream,Repartidor,En Camino,44
+Ped-L-048,DockerPizza,Restaurante,Preparando,44
+Ped-L-049,SushiStream,Restaurante,Preparando,44
+Ped-L-050,DockerPizza,Restaurante,Cancelado,44
+Ped-L-052,GopherTacos,Restaurante,Preparando,44
+Ped-L-053,BurgerNode,Restaurante,Preparando,44
+Ped-L-055,SushiStream,Restaurante,Recibido,44
+Ped-L-042,DockerPizza,Repartidor,Entregado,45
+Ped-L-045,GopherTacos,Repartidor,En Camino,45
+Ped-L-054,BurgerNode,Restaurante,Preparando,45
+Ped-L-043,BurgerNode,Repartidor,Entregado,46
+Ped-L-049,SushiStream,Restaurante,Cancelado,46
+Ped-L-051,BurgerNode,Restaurante,Preparando,46
+Ped-L-054,BurgerNode,Repartidor,En Camino,46
+Ped-L-056,GopherTacos,Restaurante,Recibido,46
+Ped-L-045,GopherTacos,Repartidor,Entregado,47
+Ped-L-046,BurgerNode,Repartidor,Entregado,47
+Ped-L-047,SushiStream,Repartidor,Entregado,47
+Ped-L-048,DockerPizza,Repartidor,En Camino,47
+Ped-L-051,BurgerNode,Repartidor,En Camino,47
+Ped-L-052,GopherTacos,Repartidor,En Camino,47
+Ped-L-053,BurgerNode,Repartidor,En Camino,47
+Ped-L-055,SushiStream,Restaurante,Preparando,47
+Ped-L-054,BurgerNode,Repartidor,Entregado,48
+Ped-L-056,GopherTacos,Restaurante,Preparando,48
+Ped-L-057,SushiStream,Restaurante,Recibido,48
+Ped-L-058,GopherTacos,Restaurante,Recibido,49
+Ped-L-059,SushiStream,Restaurante,Recibido,49
+Ped-L-060,DockerPizza,Restaurante,Recibido,49
+Ped-L-061,GopherTacos,Restaurante,Recibido,49
+Ped-L-048,DockerPizza,Repartidor,Entregado,50
+Ped-L-051,BurgerNode,Repartidor,Entregado,50
+Ped-L-052,GopherTacos,Repartidor,Entregado,50
+Ped-L-053,BurgerNode,Repartidor,Entregado,50
+Ped-L-055,SushiStream,Repartidor,En Camino,50
+Ped-L-056,GopherTacos,Repartidor,En Camino,50
+Ped-L-057,SushiStream,Restaurante,Preparando,50
+Ped-L-058,GopherTacos,Restaurante,Preparando,50
+Ped-L-059,SushiStream,Restaurante,Preparando,50
+Ped-L-059,SushiStream,Repartidor,En Camino,51
+Ped-L-060,DockerPizza,Restaurante,Preparando,51
+Ped-L-061,GopherTacos,Restaurante,Preparando,51
+Ped-L-062,BurgerNode,Restaurante,Recibido,51
+Ped-L-056,GopherTacos,Repartidor,Entregado,52
+Ped-L-058,GopherTacos,Restaurante,Cancelado,52
+Ped-L-059,SushiStream,Repartidor,Entregado,52
+Ped-L-063,SushiStream,Restaurante,Recibido,52
+Ped-L-055,SushiStream,Repartidor,Entregado,53
+Ped-L-057,SushiStream,Repartidor,En Camino,53
+Ped-L-060,DockerPizza,Repartidor,En Camino,53
+Ped-L-061,GopherTacos,Repartidor,En Camino,53
+Ped-L-062,BurgerNode,Restaurante,Preparando,53
+Ped-L-064,DockerPizza,Restaurante,Recibido,53
+Ped-L-057,SushiStream,Repartidor,Entregado,54
+Ped-L-065,SushiStream,Restaurante,Recibido,54
+Ped-L-060,DockerPizza,Repartidor,Entregado,55
+Ped-L-062,BurgerNode,Repartidor,En Camino,55
+Ped-L-063,SushiStream,Restaurante,Preparando,55
+Ped-L-064,DockerPizza,Restaurante,Preparando,55
+Ped-L-061,GopherTacos,Repartidor,Entregado,56
+Ped-L-062,BurgerNode,Repartidor,Entregado,56
+Ped-L-066,BurgerNode,Restaurante,Recibido,56
+Ped-L-064,DockerPizza,Repartidor,En Camino,57
+Ped-L-065,SushiStream,Restaurante,Preparando,57
+Ped-L-067,GopherTacos,Restaurante,Recibido,57
+Ped-L-063,SushiStream,Repartidor,En Camino,58
+Ped-L-064,DockerPizza,Repartidor,Entregado,58
+Ped-L-065,SushiStream,Repartidor,En Camino,58
+Ped-L-067,GopherTacos,Restaurante,Preparando,58
+Ped-L-068,GopherTacos,Restaurante,Recibido,58
+Ped-L-069,GopherTacos,Restaurante,Recibido,58
+Ped-L-066,BurgerNode,Restaurante,Preparando,59
+Ped-L-067,GopherTacos,Restaurante,Cancelado,59
+Ped-L-070,BurgerNode,Restaurante,Recibido,59
+Ped-L-071,BurgerNode,Restaurante,Recibido,59
+Ped-L-065,SushiStream,Repartidor,Entregado,60
+Ped-L-068,GopherTacos,Restaurante,Preparando,60
+Ped-L-069,GopherTacos,Restaurante,Preparando,60
+Ped-L-070,BurgerNode,Restaurante,Preparando,60
+Ped-L-071,BurgerNode,Restaurante,Preparando,60
+Ped-L-063,SushiStream,Repartidor,Entregado,61
+Ped-L-069,GopherTacos,Repartidor,En Camino,61
+Ped-L-071,BurgerNode,Repartidor,En Camino,61
+Ped-L-072,DockerPizza,Restaurante,Recibido,61
+Ped-L-066,BurgerNode,Repartidor,En Camino,62
+Ped-L-068,GopherTacos,Repartidor,En Camino,62
+Ped-L-072,DockerPizza,Restaurante,Preparando,62
+Ped-L-073,GopherTacos,Restaurante,Recibido,62
+Ped-L-074,BurgerNode,Restaurante,Recibido,62
+Ped-L-066,BurgerNode,Repartidor,Entregado,63
+Ped-L-070,BurgerNode,Repartidor,En Camino,63
+Ped-L-073,GopherTacos,Restaurante,Preparando,63
+Ped-L-075,SushiStream,Restaurante,Recibido,63
+Ped-L-068,GopherTacos,Repartidor,Entregado,64
+Ped-L-069,GopherTacos,Repartidor,Entregado,64
+Ped-L-070,BurgerNode,Repartidor,Entregado,64
+Ped-L-071,BurgerNode,Repartidor,Entregado,64
+Ped-L-074,BurgerNode,Restaurante,Preparando,64
+Ped-L-076,DockerPizza,Restaurante,Recibido,64
+Ped-L-072,DockerPizza,Restaurante,Cancelado,65
+Ped-L-074,BurgerNode,Repartidor,En Camino,65
+Ped-L-075,SushiStream,Restaurante,Preparando,65
+Ped-L-077,BurgerNode,Restaurante,Recibido,65
+Ped-L-073,GopherTacos,Repartidor,En Camino,66
+Ped-L-078,SushiStream,Restaurante,Recibido,66
+Ped-L-076,DockerPizza,Restaurante,Preparando,67
+Ped-L-079,SushiStream,Restaurante,Recibido,67
+Ped-L-074,BurgerNode,Repartidor,Entregado,68
+Ped-L-075,SushiStream,Repartidor,En Camino,68
+Ped-L-077,BurgerNode,Restaurante,Preparando,68
+Ped-L-078,SushiStream,Restaurante,Preparando,68
+Ped-L-073,GopherTacos,Repartidor,Entregado,69
+Ped-L-075,SushiStream,Repartidor,Entregado,69
+Ped-L-078,SushiStream,Restaurante,Cancelado,69
+Ped-L-080,SushiStream,Restaurante,Recibido,69
+Ped-L-081,SushiStream,Restaurante,Recibido,69
+Ped-L-076,DockerPizza,Restaurante,Cancelado,70
+Ped-L-077,BurgerNode,Repartidor,En Camino,70
+Ped-L-079,SushiStream,Restaurante,Preparando,70
+Ped-L-081,SushiStream,Restaurante,Preparando,70
+Ped-L-077,BurgerNode,Repartidor,Entregado,71
+Ped-L-079,SushiStream,Repartidor,En Camino,71
+Ped-L-080,SushiStream,Restaurante,Preparando,71
+Ped-L-082,GopherTacos,Restaurante,Recibido,71
+Ped-L-083,SushiStream,Restaurante,Recibido,71
+Ped-L-081,SushiStream,Repartidor,En Camino,72
+Ped-L-079,SushiStream,Repartidor,Entregado,73
+Ped-L-080,SushiStream,Repartidor,En Camino,73
+Ped-L-082,GopherTacos,Restaurante,Preparando,73
+Ped-L-083,SushiStream,Restaurante,Preparando,73
+Ped-L-084,SushiStream,Restaurante,Recibido,73
+Ped-L-085,GopherTacos,Restaurante,Recibido,73
+Ped-L-086,GopherTacos,Restaurante,Recibido,73
+Ped-L-081,SushiStream,Repartidor,Entregado,74
+Ped-L-084,SushiStream,Restaurante,Preparando,74
+Ped-L-086,GopherTacos,Restaurante,Preparando,74
+Ped-L-080,SushiStream,Repartidor,Entregado,75
+Ped-L-082,GopherTacos,Repartidor,En Camino,75
+Ped-L-083,SushiStream,Repartidor,En Camino,75
+Ped-L-084,SushiStream,Repartidor,En Camino,75
+Ped-L-087,DockerPizza,Restaurante,Recibido,75
+Ped-L-082,GopherTacos,Repartidor,Entregado,76
+Ped-L-084,SushiStream,Repartidor,Entregado,76
+Ped-L-085,GopherTacos,Restaurante,Preparando,76
+Ped-L-086,GopherTacos,Repartidor,En Camino,76
+Ped-L-083,SushiStream,Repartidor,Entregado,77
+Ped-L-086,GopherTacos,Repartidor,Entregado,77
+Ped-L-087,DockerPizza,Restaurante,Preparando,77
+Ped-L-088,SushiStream,Restaurante,Recibido,77
+Ped-L-085,GopherTacos,Repartidor,En Camino,78
+Ped-L-089,GopherTacos,Restaurante,Recibido,78
+Ped-L-087,DockerPizza,Repartidor,En Camino,79
+Ped-L-089,GopherTacos,Restaurante,Preparando,79
+Ped-L-088,SushiStream,Restaurante,Preparando,80
+Ped-L-089,GopherTacos,Repartidor,En Camino,80
+Ped-L-090,SushiStream,Restaurante,Recibido,80
+Ped-L-085,GopherTacos,Repartidor,Entregado,81
+Ped-L-091,DockerPizza,Restaurante,Recibido,81
+Ped-L-092,SushiStream,Restaurante,Recibido,81
+Ped-L-087,DockerPizza,Repartidor,Entregado,82
+Ped-L-088,SushiStream,Repartidor,En Camino,82
+Ped-L-089,GopherTacos,Repartidor,Entregado,83
+Ped-L-090,SushiStream,Restaurante,Preparando,83
+Ped-L-092,SushiStream,Restaurante,Preparando,83
+Ped-L-093,SushiStream,Restaurante,Recibido,83
+Ped-L-088,SushiStream,Repartidor,Entregado,84
+Ped-L-090,SushiStream,Restaurante,Cancelado,84
+Ped-L-091,DockerPizza,Restaurante,Preparando,84
+Ped-L-092,SushiStream,Repartidor,En Camino,84
+Ped-L-093,SushiStream,Restaurante,Preparando,84
+Ped-L-094,BurgerNode,Restaurante,Recibido,85
+Ped-L-092,SushiStream,Repartidor,Entregado,86
+Ped-L-093,SushiStream,Restaurante,Cancelado,86
+Ped-L-094,BurgerNode,Restaurante,Preparando,86
+Ped-L-095,BurgerNode,Restaurante,Recibido,86
+Ped-L-091,DockerPizza,Repartidor,En Camino,87
+Ped-L-096,BurgerNode,Restaurante,Recibido,87
+Ped-L-095,BurgerNode,Restaurante,Preparando,88
+Ped-L-096,BurgerNode,Restaurante,Preparando,88
+Ped-L-094,BurgerNode,Repartidor,En Camino,89
+Ped-L-096,BurgerNode,Repartidor,En Camino,89
+Ped-L-097,BurgerNode,Restaurante,Recibido,89
+Ped-L-098,SushiStream,Restaurante,Recibido,89
+Ped-L-091,DockerPizza,Repartidor,Entregado,90
+Ped-L-095,BurgerNode,Repartidor,En Camino,90
+Ped-L-097,BurgerNode,Restaurante,Preparando,90
+Ped-L-098,SushiStream,Restaurante,Preparando,90
+Ped-L-099,DockerPizza,Restaurante,Recibido,90
+Ped-L-094,BurgerNode,Repartidor,Entregado,91
+Ped-L-096,BurgerNode,Repartidor,Entregado,91
+Ped-L-097,BurgerNode,Repartidor,En Camino,91
+Ped-L-095,BurgerNode,Repartidor,Entregado,92
+Ped-L-097,BurgerNode,Repartidor,Entregado,92
+Ped-L-099,DockerPizza,Restaurante,Preparando,92
+Ped-L-100,GopherTacos,Restaurante,Recibido,92
+Ped-L-098,SushiStream,Restaurante,Cancelado,93
+Ped-L-100,GopherTacos,Restaurante,Preparando,93
+Ped-L-099,DockerPizza,Repartidor,En Camino,94
+Ped-L-099,DockerPizza,Repartidor,Entregado,96
+Ped-L-100,GopherTacos,Repartidor,En Camino,96
+Ped-L-100,GopherTacos,Repartidor,Entregado,99

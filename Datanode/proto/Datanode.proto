@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option go_package = "./Datanode";
+package Datanode;
+
+service DatanodeService {
+  rpc EscribirPedido (EscribirPedidoRequest) returns (EscribirPedidoResponse); 
+  rpc ObtenerPedido (ObtenerPedidoRequest) returns (ObtenerPedidoResponse);
+  rpc IntercambioGossip (GossipRequest) returns (GossipResponse);
+  rpc MandarAuditoria (AuditoriaRequest) returns (AuditoriaResponse);
+}
+
+message EscribirPedidoRequest {
+  string pedido_id = 1;
+  string estado = 2;
+  repeated int32 RelojVectorial = 3;
+}
+
+message EscribirPedidoResponse {
+  bool exito = 1;
+}
+
+message ObtenerPedidoRequest {
+  string pedido_id = 1;
+}
+
+message ObtenerPedidoResponse {
+  string pedido_id = 1;
+  string estado = 2;
+  repeated int32 RelojVectorial = 3;
+}
+
+message GossipRequest {
+  map<string, EscribirPedidoRequest> catalogo_pedidos = 1; 
+}
+
+message GossipResponse {
+  bool ack = 1;
+  map<string, EscribirPedidoRequest> catalogo_pedidos = 2;
+}
+
+message AuditoriaRequest {
+  string mensaje_control = 1;
+}
+
+message AuditoriaResponse {
+  bool archivo_creado = 1;
+  map<string, EscribirPedidoRequest> catalogo = 2;
+}

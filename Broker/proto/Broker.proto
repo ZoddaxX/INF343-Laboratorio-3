@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option go_package = "./Broker";
+package Broker;
+
+service BrokerService {
+  rpc ProcesarEscritura (EscrituraBrokerRequest) returns (EscrituraBrokerResponse);
+  rpc ProcesarLectura (LecturaBrokerRequest) returns (LecturaBrokerResponse);
+  rpc ActualizarPedido (ActualizacionProductorRequest) returns (ActualizacionProductorResponse);
+}
+
+message EscrituraBrokerRequest {
+  string pedido_id = 1;
+  string estado = 2;
+  string target_datanode = 3; // IP:Port del Datanode
+}
+
+message EscrituraBrokerResponse {
+  bool exito = 1;
+}
+
+message LecturaBrokerRequest {
+  string pedido_id = 1;
+}
+
+message LecturaBrokerResponse {
+  string estado = 1;
+  repeated int32 RelojVectorial = 2;
+}
+
+message ActualizacionProductorRequest {
+  string pedido_id = 1;
+  string estado = 2;
+  repeated int32 RelojVectorial = 3;
+}
+
+message ActualizacionProductorResponse {
+  bool exito = 1;
+}
+
