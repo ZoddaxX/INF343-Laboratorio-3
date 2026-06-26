@@ -9,6 +9,10 @@ No debe ser necesario compilar los protoc, dado que vienen compilado por defecto
 
 - `make build-protoc`
 
+#### Ejecución en entorno local
+Para ejecutar el proyecto en local, se debe tener Docker Desktop abierto y ejecutar:
+- `docker compose up --build`
+
 #### VM1
 Maquina VM-25, IP:10.35.168.35
 
